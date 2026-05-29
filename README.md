@@ -8,7 +8,7 @@ Lightweight wrapper around [PyMySQL](https://github.com/PyMySQL/PyMySQL) for exe
 pip install pymysql-term
 ```
 
-Or from source:
+from source:
 
 ```bash
 pip install git+https://github.com/pymysql-term/pymysql-term.git
