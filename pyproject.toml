@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pymysql-term"
+version = "1.0.0"
+description = "Terminal output formatter and query executor for PyMySQL"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "dev" }]
+requires-python = ">=3.10"
+dependencies = ["pymysql>=1.0.0"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Database",
+    "Topic :: Utilities",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pymysql_terminal*"]
+
+[project.urls]
+Homepage = "https://github.com/pymysql-term/pymysql-term"
+Repository = "https://github.com/pymysql-term/pymysql-term"
